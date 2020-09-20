@@ -24,6 +24,7 @@ public class Issue34 {
         }
     }
 
+
     public enum Japanese {
         WANGPENG(1);
         private Integer sex;
