@@ -33,9 +33,11 @@ public class Test {
 //        map.merge(key,99,Integer::sum);
 //        System.out.println(map);
 
+        //{2=2, 3=3}
+        //{1=99, 2=2, 3=3}
         Map<Object,Integer> map = new HashMap<>();
         Integer key = 1;
-        map.put(1,null);
+        //map.put(1,null);
         map.put(2,2);
         map.put(3,3);
         System.out.println(map);
